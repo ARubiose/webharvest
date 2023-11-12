@@ -1,0 +1,37 @@
+# Python virtyual environment
+.venv
+
+# Additional settings
+.vscode/*
+!.vscode/launch.json
+
+# Python files
+**/*.pyc
+**/__pycache__
+**/.DS_Store
+**/.ipynb_checkpoints
+*.egg-info/
+
+# Mypy
+.mypy_cache
+
+# Project folders
+data/*
+!data/.gitkeep
+/downloads/*
+!downloads/.gitkeep
+logs/*.log
+screenshots/*
+!screenshots/.gitkeep
+
+# VSCode settings
+.vscode/*
+
+# Webscrapper package config
+config/*
+!config/logging.ini
+
+# Playground
+playground.py
+
+

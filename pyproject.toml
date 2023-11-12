@@ -1,0 +1,23 @@
+[tool.poetry]
+    name = "webharvest"
+    version = "0.1.0"
+    description = "A concurrent webscrapper for the modern web"
+    authors = ["Alvaro Rubio <alvaro.rubio.segovia@gmail.com>"]
+    readme = "README.md"
+    repository = "https://github.com/ARubiose/webharvest"
+    license = "MIT"
+    packages = [
+        { include = "webharvest", from = "." }
+    ]
+
+[tool.poetry.dependencies]
+    python = "^3.11.1"
+    pydantic = "^2.4.2"
+    selenium = "^4.15.2"
+    webdriver-manager = "^4.0.1"
+    httpx = "^0.25.0"
+    tenacity = "^8.2.3"
+
+[build-system]
+    requires = ["poetry-core"]
+    build-backend = "poetry.core.masonry.api"
